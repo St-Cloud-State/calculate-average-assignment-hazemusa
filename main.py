@@ -1,3 +1,4 @@
+# Haz Fa
 # Assignment: Calculate Average of Three Scores
   # Instructions:
   # 1. Remove these comments after you understand the requested operation.
@@ -5,4 +6,13 @@
   # 3. Then write the Python code with comments explaining each line.
 
   # Call the function to test
-  calculate_average()
+def calculate_average(exam1,exam2,exam3):
+    average = (exam1 + exam2 + exam3)/3
+    print("The average is",average)
+
+
+exam1 = float(input("Please enter the exam 1"))
+exam2 = float(input("Please enter the exam 2"))
+exam3 = float(input("Please enter the exam 3"))
+
+calculate_average()

@@ -1,3 +1,4 @@
+# Haz Fa
 # Assignment: Calculate Average of Three Scores
   # Instructions:
   # 1. Remove these comments after you understand the requested operation.

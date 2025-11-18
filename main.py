@@ -11,8 +11,8 @@ def calculate_average(exam1,exam2,exam3):
     print("The average is",average)
 
 
-exam1 = float(input("Please enter the exam 1"))
-exam2 = float(input("Please enter the exam 2"))
-exam3 = float(input("Please enter the exam 3"))
+exam1 = float(input("Please enter the exam 1: "))
+exam2 = float(input("Please enter the exam 2: "))
+exam3 = float(input("Please enter the exam 3: "))
 
-calculate_average()
+calculate_average(exam1,exam2,exam3)
